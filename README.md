@@ -14,16 +14,18 @@ nada
 
 example header:
 
-`#!/bin/sh                
+```bash
+#!/bin/sh
 #
 # program - it does things
 # (c) arcetera 2015 - wtfpl
 #
-`
-the first line is the shebang, which will hopefully be `#!/bin/sh`. if bash is needed, use `!#/usr/bin/env bash`
-then have a line with merely #.
-then have the program name, a dash, a short description.
-then have the copyright and license.
+```
+
+the first line is the shebang, which will hopefully be `#!/bin/sh`. if bash is needed, use `!#/usr/bin/env bash`<br>
+then have a line with merely #.<br>
+then have the program name, a dash, a short description.<br>
+then have the copyright and license.<br>
 then another #.
 
 ## functions
@@ -64,7 +66,7 @@ case should be indented two spaces, unless on the same line, in which case it sh
 
 ## command subs
 
-use `$()`. 
+use `$()`.
 
 ## test
 
