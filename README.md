@@ -14,7 +14,7 @@ nada
 
 example header:
 
-```bash
+```sh
 #!/bin/sh
 #
 # program - it does things
@@ -32,7 +32,7 @@ then another #.
 
 functions will be written with parentheses, not using `function`.
 
-```
+```sh
 do_something_cool() {
   # code
 }
@@ -42,17 +42,15 @@ do_something_cool() {
 
 use two spaces, not tabs
 
-```
-do_something_cool() {
-  echo 'hi'
-}
-```
-
-not
-
-```
+```sh
+# hell no
 do_something_cool() {
         echo 'hi'
+}
+
+# much better
+do_something_cool() {
+  echo 'hi'
 }
 ```
 
