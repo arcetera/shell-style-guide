@@ -14,23 +14,25 @@ nada
 
 example header:
 
-`#!/bin/sh                
+```sh
+#!/bin/sh
 #
 # program - it does things
 # (c) arcetera 2015 - wtfpl
 #
-`
-the first line is the shebang, which will hopefully be `#!/bin/sh`. if bash is needed, use `!#/usr/bin/env bash`
-then have a line with merely #.
-then have the program name, a dash, a short description.
-then have the copyright and license.
+```
+
+the first line is the shebang, which will hopefully be `#!/bin/sh`. if bash is needed, use `!#/usr/bin/env bash`<br>
+then have a line with merely #.<br>
+then have the program name, a dash, a short description.<br>
+then have the copyright and license.<br>
 then another #.
 
 ## functions
 
 functions will be written with parentheses, not using `function`.
 
-```
+```sh
 do_something_cool() {
   # code
 }
@@ -40,17 +42,15 @@ do_something_cool() {
 
 use two spaces, not tabs
 
-```
-do_something_cool() {
-  echo 'hi'
-}
-```
-
-not
-
-```
+```sh
+# hell no
 do_something_cool() {
         echo 'hi'
+}
+
+# much better
+do_something_cool() {
+  echo 'hi'
 }
 ```
 
@@ -64,7 +64,7 @@ case should be indented two spaces, unless on the same line, in which case it sh
 
 ## command subs
 
-use `$()`. 
+use `$()`.
 
 ## test
 
